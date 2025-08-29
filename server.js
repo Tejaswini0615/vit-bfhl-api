@@ -5,12 +5,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// === Replace these with your actual details ===
-const FULL_NAME = "tejaswini_dubey";       // lowercase full name, spaces → underscores
-const DOB_DDMMYYYY = "06012005";    // format: ddmmyyyy
+
+const FULL_NAME = "tejaswini_dubey";   
+const DOB_DDMMYYYY = "06012005";   
 const EMAIL = "tejaswini.dubey2022@vitstudent.ac.in";
 const ROLL_NUMBER = "22BAI1152";
-// ==============================================
+
 
 
 
